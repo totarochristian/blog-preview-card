@@ -1,8 +1,29 @@
 /************COLORS/************/
+
 /*****PRIMARY*****/
 .bg-yellow{
   background-color: hsl(47, 88%, 63%);
 }
 .txt-yellow{
   color: hsl(47, 88%, 63%);
+}
+
+/*****NEUTRAL*****/
+.bg-white{
+  background-color: hsl(0, 0%, 100%);
+}
+.txt-white{
+  color: hsl(0, 0%, 100%);
+}
+.bg-grey{
+  background-color: hsl(0, 0%, 50%);
+}
+.txt-grey{
+  color: hsl(0, 0%, 50%);
+}
+.bg-black{
+  background-color: hsl(0, 0%, 7%);
+}
+.txt-black{
+  color: hsl(0, 0%, 7%);
 }
