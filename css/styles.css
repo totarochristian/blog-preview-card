@@ -6,7 +6,7 @@
   --black: hsl(0, 0%, 7%);
   --font-size-p: 16px;
   --container-min-width: 330px;
-  --container-max-width: 375px;
+  --container-max-width: 385px;
   --container-border-radius: 20px;
   --container-padding: 1.4rem;
   --container-main-image-border-radius: calc(var(--container-border-radius) / 2);
@@ -114,6 +114,12 @@ body{
   margin-bottom: var(--container-padding);
 }
 .badge{
-  padding: 5px 10px;
+  padding: 7px 14px;
   border-radius: 5px;
 }
+.author{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.author>img{ width: 30px; height: auto; }
