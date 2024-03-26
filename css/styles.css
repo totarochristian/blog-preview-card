@@ -4,7 +4,7 @@
   --white: hsl(0, 0%, 100%);
   --grey: hsl(0, 0%, 50%);
   --black: hsl(0, 0%, 7%);
-  --font-size-p: 16px;
+  --font-size-p: 1rem;
   --container-min-width: 330px;
   --container-max-width: 385px;
   --container-border-radius: 20px;
@@ -42,13 +42,13 @@ body{
   background-color: var(--yellow);
   font-family: 'Figtree';
 }
-
 .center-element{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+p{ font-size: var(--font-size-p);}
 
 /********************* FONTS *********************/
 
