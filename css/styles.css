@@ -108,6 +108,11 @@ body{
   box-shadow: 8px 8px var(--black);
   padding: var(--container-padding);
 }
+.container:hover{ box-shadow: 16px 16px var(--black); }
+.container h2:hover{ 
+  color: var(--yellow);
+  cursor: pointer;
+}
 .container>img{
   width: 100%;
   border-radius: var(--container-main-image-border-radius);
