@@ -7,6 +7,8 @@
   --font-size-p: 16px;
   --container-width: 350px;
   --container-border-radius: 20px;
+  --container-padding: 1.4rem;
+  --container-main-image-border-radius: calc(var(--container-border-radius) / 2);
 }
 
 /********************* Fonts declarations *********************/
@@ -80,4 +82,10 @@ body{
   text-align: center;
   border: 1px solid var(--black);
   box-shadow: 8px 8px var(--black);
+  padding: var(--container-padding);
+}
+.container>img{
+  width: 100%;
+  border-radius: var(--container-main-image-border-radius);
+  padding-bottom: var(--container-padding);
 }
