@@ -87,5 +87,5 @@ body{
 .container>img{
   width: 100%;
   border-radius: var(--container-main-image-border-radius);
-  padding-bottom: var(--container-padding);
+  margin-bottom: var(--container-padding);
 }
