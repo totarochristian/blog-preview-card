@@ -1,29 +1,37 @@
-/************COLORS/************/
+/********************* Root variables *********************/
+:root{
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(0, 0%, 7%);
+}
 
-/*****PRIMARY*****/
+/********************* COLORS *********************/
+
+/*********** PRIMARY ***********/
 .bg-yellow{
-  background-color: hsl(47, 88%, 63%);
+  background-color: var(--yellow);
 }
 .txt-yellow{
-  color: hsl(47, 88%, 63%);
+  color: var(--yellow);
 }
 
-/*****NEUTRAL*****/
+/*********** NEUTRAL ***********/
 .bg-white{
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--white);
 }
 .txt-white{
-  color: hsl(0, 0%, 100%);
+  color: var(--white);
 }
 .bg-grey{
-  background-color: hsl(0, 0%, 50%);
+  background-color: var(--grey);
 }
 .txt-grey{
-  color: hsl(0, 0%, 50%);
+  color: var(--grey);
 }
 .bg-black{
-  background-color: hsl(0, 0%, 7%);
+  background-color: var(--black);
 }
 .txt-black{
-  color: hsl(0, 0%, 7%);
+  color: var(--black);
 }
