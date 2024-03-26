@@ -9,6 +9,10 @@
   --container-border-radius: 20px;
   --container-padding: 1.4rem;
   --container-main-image-border-radius: calc(var(--container-border-radius) / 2);
+  --fw-extrabold: 800;
+  --fw-semibold: 500;
+  --p-pd-mg-1: calc(var(--container-padding) / 2);
+  --p-pd-mg-2: var(--container-padding);
 }
 
 /********************* Fonts declarations *********************/
@@ -45,6 +49,25 @@ body{
   transform: translate(-50%, -50%);
 }
 
+/********************* FONTS *********************/
+
+/*********** WEIGHTS ***********/
+.fw-extrabold{ font-weight: var(--fw-extrabold); }
+.fw-semibold{ font-weight: var(--fw-semibold); }
+
+/********************* MARGINS & PADDINGS *********************/
+
+/*********** MARGINS ***********/
+.m-1{ margin: var(--p-pd-mg-1); }
+.my-1{ margin-top: var(--p-pd-mg-1); margin-bottom: var(--p-pd-mg-1); }
+.mb-1{ margin-bottom: var(--p-pd-mg-1); }
+.my-2{ margin-top: var(--p-pd-mg-2); margin-bottom: var(--p-pd-mg-2); }
+.mb-2{ margin-bottom: var(--p-pd-mg-2); }
+
+/*********** PADDINGS ***********/
+.py-1{ padding-top: var(--p-pd-mg-1); padding-bottom: var(--p-pd-mg-1); }
+.pb-1{ padding-bottom: var(--p-pd-mg-1); }
+
 /********************* COLORS *********************/
 
 /*********** PRIMARY ***********/
@@ -79,7 +102,6 @@ body{
 .container{
   width: var(--container-width);
   border-radius: var(--container-border-radius);
-  text-align: center;
   border: 1px solid var(--black);
   box-shadow: 8px 8px var(--black);
   padding: var(--container-padding);
@@ -88,4 +110,8 @@ body{
   width: 100%;
   border-radius: var(--container-main-image-border-radius);
   margin-bottom: var(--container-padding);
+}
+.badge{
+  padding: 5px 10px;
+  border-radius: 5px;
 }
