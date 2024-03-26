@@ -5,6 +5,8 @@
   --grey: hsl(0, 0%, 50%);
   --black: hsl(0, 0%, 7%);
   --font-size-p: 16px;
+  --container-width: 350px;
+  --container-border-radius: 20px;
 }
 
 /********************* Fonts declarations *********************/
@@ -69,4 +71,13 @@ body{
 }
 .txt-black{
   color: var(--black);
+}
+
+/********************* Main classes *********************/
+.container{
+  width: var(--container-width);
+  border-radius: var(--container-border-radius);
+  text-align: center;
+  border: 1px solid var(--black);
+  box-shadow: 8px 8px var(--black);
 }
