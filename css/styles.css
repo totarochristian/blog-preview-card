@@ -51,26 +51,19 @@ body{
 p{ font-size: var(--font-size-p);}
 
 /********************* FONTS *********************/
-
 /*********** WEIGHTS ***********/
 .fw-extrabold{ font-weight: var(--fw-extrabold); }
 .fw-semibold{ font-weight: var(--fw-semibold); }
 
 /********************* MARGINS & PADDINGS *********************/
-
 /*********** MARGINS ***********/
-.m-1{ margin: var(--p-pd-mg-1); }
 .my-1{ margin-top: var(--p-pd-mg-1); margin-bottom: var(--p-pd-mg-1); }
-.mb-1{ margin-bottom: var(--p-pd-mg-1); }
 .my-2{ margin-top: var(--p-pd-mg-2); margin-bottom: var(--p-pd-mg-2); }
 .mb-2{ margin-bottom: var(--p-pd-mg-2); }
-
 /*********** PADDINGS ***********/
-.py-1{ padding-top: var(--p-pd-mg-1); padding-bottom: var(--p-pd-mg-1); }
 .pb-1{ padding-bottom: var(--p-pd-mg-1); }
 
 /********************* COLORS *********************/
-
 /*********** PRIMARY ***********/
 .bg-yellow{
   background-color: var(--yellow);
@@ -78,28 +71,19 @@ p{ font-size: var(--font-size-p);}
 .txt-yellow{
   color: var(--yellow);
 }
-
 /*********** NEUTRAL ***********/
 .bg-white{
   background-color: var(--white);
 }
-.txt-white{
-  color: var(--white);
-}
-.bg-grey{
-  background-color: var(--grey);
-}
 .txt-grey{
   color: var(--grey);
-}
-.bg-black{
-  background-color: var(--black);
 }
 .txt-black{
   color: var(--black);
 }
 
 /********************* Main classes *********************/
+/*********** Container ***********/
 .container{
   min-width: var(--container-min-width);
   max-width: var(--container-max-width);
@@ -120,10 +104,12 @@ p{ font-size: var(--font-size-p);}
   border-radius: var(--container-main-image-border-radius);
   margin-bottom: var(--container-padding);
 }
+/*********** Badge ***********/
 .badge{
   padding: 7px 14px;
   border-radius: 5px;
 }
+/*********** Author ***********/
 .author{
   display: flex;
   align-items: center;
