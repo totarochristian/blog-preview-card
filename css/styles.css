@@ -13,6 +13,11 @@
   box-sizing: border-box;
 }
 
+/********************* General *********************/
+body{
+  background-color: var(--yellow);
+}
+
 /********************* COLORS *********************/
 
 /*********** PRIMARY ***********/
