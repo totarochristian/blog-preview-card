@@ -5,7 +5,8 @@
   --grey: hsl(0, 0%, 50%);
   --black: hsl(0, 0%, 7%);
   --font-size-p: 16px;
-  --container-width: 350px;
+  --container-min-width: 330px;
+  --container-max-width: 375px;
   --container-border-radius: 20px;
   --container-padding: 1.4rem;
   --container-main-image-border-radius: calc(var(--container-border-radius) / 2);
@@ -18,13 +19,13 @@
 /********************* Fonts declarations *********************/
 @font-face {
   font-family: "Figtree";
-  src: url('fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+  src: url('../assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "Figtree";
-  src: url('fonts/static/Figtree-SemiBold.ttf') format('truetype');
+  src: url('../assets/fonts/static/Figtree-SemiBold.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
@@ -100,7 +101,8 @@ body{
 
 /********************* Main classes *********************/
 .container{
-  width: var(--container-width);
+  min-width: var(--container-min-width);
+  max-width: var(--container-max-width);
   border-radius: var(--container-border-radius);
   border: 1px solid var(--black);
   box-shadow: 8px 8px var(--black);
